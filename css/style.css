@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Poppins';
+    background-color: rgb(213, 162, 255);
+}
+.container{
+    display: grid;
+    grid-template-columns: auto;
+
+}
+.header{
+    background-color: rgb(98, 0, 179);
+    display: flex;
+    justify-content: center;
+}
+.header__logo{
+    width: 2.5cm;
+   
+}
+.menuPrincipal{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content:center; 
+    text-decoration: none;  
+}
+.nav__items{
+    padding: 1rem;
+}
+.menuPrincipal li a{
+    text-decoration: none;
+    color: white;
+}
+.container2{
+    display: grid;
+    text-align: center;
+    padding-bottom: 1rem
+
+}
+.titulo1{
+    font-size: 1.6cm;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.textoCentral{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.conteiner__form{
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    padding: 1rem;
+    margin: 1rem;
+    margin-bottom: 1rem;
+}
+.textoSecundario{
+    font-size: .8cm;
+
+}
+#formulario{
+    display: grid;
+    justify-content: center;
+    align-content: space-between;
+    padding-bottom: 1cm;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-row-gap: auto;
+    padding: .3px;
+
+}
+.footer__inf{
+    font-size: smaller;
+    color: white;
+    padding-left: 1cm;
+    padding: .5rem;
+}
+.footer a{
+    text-align: center;
+}
+.footer__media{
+    width: 3rem;
+    padding: .3rem;
+}
+.footer__inf2{
+    font-size: smaller;
+    color: white;
+    padding-left: 1cm;
+   
+}
+.dos__columnas {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 0;
+    
+   
+}
+.imagen1{
+    width: 22.8cm;
+    padding: auto;
+}
+.textoNegro{
+    color: black;
+}
+.encabezado {
+    text-transform: uppercase;
+    font-size: 24px;
+    padding-bottom: 2rem;
+   
+}
+.imagen2{
+    width: 48cm;
+    
+}
+.imagenMedia{
+    width: 10cm;
+}
+/* media queri */
+
+
